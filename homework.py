@@ -36,7 +36,7 @@ logging.basicConfig(
 )
 
 
-def send_message_logging(func):
+def send_message_logging(func: None) -> None:
     """Логирование вызова функции send_message.
 
     Args:
