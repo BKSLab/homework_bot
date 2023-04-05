@@ -1,4 +1,4 @@
-class NoEnvironmentVariables(Exception):
+class NoEnvironmentVariables(SystemExit):
     """Отсутствует одна или несколько переменных окружения."""
 
 
