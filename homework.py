@@ -1,9 +1,9 @@
-from functools import wraps
 import logging
+import time
+from functools import wraps
+from http import HTTPStatus
 from operator import itemgetter
 from pathlib import Path
-import time
-from http import HTTPStatus
 from typing import Any
 
 import requests
